@@ -1,7 +1,7 @@
 class President {
   constructor(name, politcalParty, yearsInOffice, homeState) {
     this.name = name ;
-    this.politcalParty = politcalParty ;
+    this.politicalParty = politcalParty ;
     this.yearsInOffice = yearsInOffice ;
     this.homeState = homeState ;
   }
@@ -18,6 +18,6 @@ class President {
     return 'I am proud to be an American.'
   }
   sayHi() {
-    return `Hi, my name is ${this.name}. I am from ${this.homeState}. I represent the ${this.politcalParty}s, and was in office ${this.yearsInOffice}.`
+    return `Hi, my name is ${this.name}. I am from ${this.homeState}. I represent the ${this.politicalParty}s, and was in office ${this.yearsInOffice}.`
   }
 }
